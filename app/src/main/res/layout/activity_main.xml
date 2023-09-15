@@ -9,12 +9,10 @@
     <com.google.android.material.imageview.ShapeableImageView
         android:layout_width="200sp"
         android:layout_height="200sp"
-        android:id="@+id/authorImage"
-        android:layout_centerInParent="true"
-        android:scaleType="centerCrop"
-        android:transitionName="profileImage"
-        app:shapeAppearanceOverlay="@style/circleImageView"
+        android:id="@+id/imageView"
+        app:shapeAppearanceOverlay="@style/roundedImageView"
         android:src="@drawable/car"
-        android:padding="2sp"/>
+        android:layout_centerInParent="true"
+        android:scaleType="centerCrop"/>
 
 </RelativeLayout>
